@@ -123,8 +123,8 @@ var Footer = function(container, prefix) {
 		'  <ul class="primary">',
 		'    <li class="first"><a href="/tech" target="_blank">Technology</a></li>',
 		'    <li><a id = "' + credits + '" href="/credits">Credits</a></li>',
-		/*
-		'    <li><a href="http://romealbum.com/" target="_blank">Rome Album</a></li>',
+		'    <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_mqEHD9mdkJDBFud8lqOmbox74Sj8jCbSg" target="_blank">Rome Album</a></li>',
+  		/*
 		'    <li id="' + divReplacement + '" class="rome_footer_buy_album">',
 		'      <a href = "http://widgets.platform.emi.com/landing/2520403d33984be0b70fca43945728e9.html" onClick="_gaq.push([\'_trackPageview\', \'/buy_album\'])" target="blank">Buy Album</a>',
 		'    </li>',
