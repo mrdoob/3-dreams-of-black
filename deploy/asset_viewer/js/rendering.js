@@ -27,11 +27,13 @@ function initRenderer() {
 
   container.appendChild(renderer.domElement);
 
- stats = new Stats();
- stats.domElement.style.position = 'fixed';
- stats.domElement.style.right = '0px';
- stats.domElement.style.top = '0px';
- container.appendChild( stats.domElement );
+  /*
+  stats = new Stats();
+  stats.domElement.style.position = 'fixed';
+  stats.domElement.style.right = '0px';
+  stats.domElement.style.top = '0px';
+  container.appendChild( stats.domElement );
+  */
 
   initPostprocessingNoise(postprocessing);
 }
@@ -239,7 +241,7 @@ function render(){
     postprocessing.materialHeat.uniforms.tNormal.texture = postprocessing.textureNormal;
     renderer.render( postprocessing.scene, postprocessing.camera );
 
-//    stats.update();
+    // stats.update();
     updateCamera();
 }
 
